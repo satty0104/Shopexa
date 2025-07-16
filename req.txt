@@ -1,0 +1,8 @@
+streamlit
+pandas
+langchain==0.3.26
+langchain-huggingface
+transformers
+sentence-transformers
+chromadb
+faiss-cpu

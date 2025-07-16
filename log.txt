@@ -1,0 +1,162 @@
+(venv) (base)PS S:\walmart>   streamlit run streamlit_app.py --logger.level=debug
+2025-07-14 18:19:44.993 Starting server...
+2025-07-14 18:19:44.995 Serving static content from S:\walmart\venv\Lib\site-packages\streamlit\static
+2025-07-14 18:19:45.004 Server started on port 8501
+2025-07-14 18:19:45.004 Runtime state: RuntimeState.INITIAL -> RuntimeState.NO_SESSIONS_CONNECTED
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.29.115:8501
+
+2025-07-14 18:19:45.310 Setting up signal handler
+2025-07-14 18:19:47.112 No singleton. Registering one.
+2025-07-14 18:19:47.114 Watcher created for S:\walmart\streamlit_app.py
+2025-07-14 18:19:47.115 AppSession initialized (id=cf421b0c-ccd5-4733-bfd6-a5b6728ffa43)
+2025-07-14 18:19:47.115 Created new session for client 2761154181520. Session ID: cf421b0c-ccd5-4733-bfd6-a5b6728ffa43
+2025-07-14 18:19:47.115 Runtime state: RuntimeState.NO_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2025-07-14 18:19:47.115 Received the following back message:
+rerun_script {
+  widget_states {
+  }
+  context_info {
+    timezone: "Asia/Calcutta"
+    timezone_offset: -330
+    locale: "en-US"
+    url: "http://localhost:8501/"
+    is_embedded: false
+    color_scheme: "dark"
+  }
+}
+
+2025-07-14 18:19:47.119 Beginning script thread
+2025-07-14 18:19:47.120 Running script RerunData(widget_states=, context_info=timezone: "Asia/Calcutta"
+timezone_offset: -330
+locale: "en-US"
+url: "http://localhost:8501/"
+is_embedded: false
+color_scheme: "dark"
+)
+2025-07-14 18:19:47.121 Disconnecting files for session with ID cf421b0c-ccd5-4733-bfd6-a5b6728ffa43
+2025-07-14 18:19:47.121 Sessions still active: dict_keys([])
+2025-07-14 18:19:47.121 Files: 0; Sessions with files: 0
+2025-07-14 18:19:49.607 Ignoring changed path S:\walmart\venv\Lib\site-packages\aiohappyeyeballs-2.6.1.dist-info.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:49.607 Ignoring changed path S:\walmart\venv\Lib\site-packages\aiohttp-3.12.14.dist-info.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:49.608 Ignoring changed path S:\walmart\venv\Lib\site-packages\aiosignal-1.4.0.dist-info.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:49.610 Ignoring changed path S:\walmart\venv\Lib\site-packages\dataclasses_json-0.6.7.dist-info.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:49.611 Ignoring changed path S:\walmart\venv\Lib\site-packages\frozenlist-1.7.0.dist-info.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:49.613 Ignoring changed path S:\walmart\venv\Lib\site-packages\httpx_sse-0.4.1.dist-info.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:49.619 Ignoring changed path S:\walmart\venv\Lib\site-packages\langchain_community-0.3.27.dist-info.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:49.620 Ignoring changed path S:\walmart\venv\Lib\site-packages\langchain_community-0.3.27.dist-info\entry_points.txt.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:49.622 Ignoring changed path S:\walmart\venv\Lib\site-packages\marshmallow-3.26.1.dist-info.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:49.624 Ignoring changed path S:\walmart\venv\Lib\site-packages\multidict-6.6.3.dist-info.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:49.625 Ignoring changed path S:\walmart\venv\Lib\site-packages\mypy_extensions-1.1.0.dist-info.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:49.642 Ignoring changed path S:\walmart\venv\Lib\site-packages\propcache-0.3.2.dist-info.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:49.644 Ignoring changed path S:\walmart\venv\Lib\site-packages\pydantic_settings-2.10.1.dist-info.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:49.662 Ignoring changed path S:\walmart\venv\Lib\site-packages\typing_inspect-0.9.0.dist-info.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:49.666 Ignoring changed path S:\walmart\venv\Lib\site-packages\yarl-1.20.1.dist-info.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:56.675 Ignoring changed path S:\walmart\venv\Lib\site-packages\aiohttp-3.12.14.dist-info\METADATA.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:57.173 Ignoring changed path S:\walmart\venv\Lib\site-packages\sklearn\.libs.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:19:57.558 Ignoring changed path S:\walmart\venv\Lib\site-packages\scipy\sparse\linalg\_dsolve.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x00000282E1BED990>)}
+2025-07-14 18:20:07.106 Runtime state: RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED -> RuntimeState.NO_SESSIONS_CONNECTED
+2025-07-14 18:20:07.655 Watcher created for S:\walmart\streamlit_app.py
+2025-07-14 18:20:07.656 AppSession initialized (id=f0d8db11-68a2-446c-bbdf-652a65d76edd)
+2025-07-14 18:20:07.657 Created new session for client 2759845045008. Session ID: f0d8db11-68a2-446c-bbdf-652a65d76edd
+2025-07-14 18:20:07.657 Runtime state: RuntimeState.NO_SESSIONS_CONNECTED -> RuntimeState.ONE_OR_MORE_SESSIONS_CONNECTED
+2025-07-14 18:20:07.657 Received the following back message:
+rerun_script {
+  widget_states {
+  }
+  context_info {
+    timezone: "Asia/Calcutta"
+    timezone_offset: -330
+    locale: "en-US"
+    url: "http://localhost:8501/"
+    is_embedded: false
+    color_scheme: "dark"
+  }
+}
+
+2025-07-14 18:20:07.662 Beginning script thread
+2025-07-14 18:20:07.663 Running script RerunData(widget_states=, context_info=timezone: "Asia/Calcutta"
+timezone_offset: -330
+locale: "en-US"
+url: "http://localhost:8501/"
+is_embedded: false
+color_scheme: "dark"
+)
+2025-07-14 18:20:07.666 Disconnecting files for session with ID f0d8db11-68a2-446c-bbdf-652a65d76edd
+2025-07-14 18:20:07.668 Sessions still active: dict_keys([])
+2025-07-14 18:20:07.669 Files: 0; Sessions with files: 0
+2025-07-14 18:20:13.405 Ignoring changed path S:\walmart\chroma_db\chroma.sqlite3-journal.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x0000028293975950>)}
+2025-07-14 18:20:13.406 Ignoring changed path S:\walmart\chroma_db\chroma.sqlite3-journal.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x0000028293975950>)}
+2025-07-14 18:20:13.407 Ignoring changed path S:\walmart\chroma_db\chroma.sqlite3.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x0000028293975950>)}
+2025-07-14 18:20:13.407 Ignoring changed path S:\walmart\chroma_db\chroma.sqlite3-journal.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x0000028293975950>)}
+2025-07-14 18:20:13.407 Ignoring changed path S:\walmart\chroma_db.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x0000028293975950>)}
+2025-07-14 18:20:13.408 Ignoring changed path S:\walmart\chroma_db.
+Watched_paths: {'S:\\walmart\\streamlit_app.py': WatchedPath(md5='270c29cf50e664d1cbffde03e3a86cc3', modification_time=1752495726.535723, on_changed=<blinker.base.Signal object at 0x0000028293975950>)}
+2025-07-14 18:20:13.621 Removing orphaned files...
+2025-07-14 18:20:13.831 Removing orphaned files...
+2025-07-14 18:20:15.996 Watcher created for S:\walmart\streamlit_app.py
+2025-07-14 18:20:16.000 Watcher created for S:\walmart\product_search_service.py
+2025-07-14 18:20:30.995 Received the following back message:
+rerun_script {
+  widget_states {
+    widgets {
+      id: "$$ID-14796fd36cf5207d8e8609e96833934a-None"
+      string_value: "Nike shoes under 2000 dollars"
+    }
+  }
+  page_script_hash: "81673c27788b9a8a1b0bde307c0772bf"
+  context_info {
+    timezone: "Asia/Calcutta"
+    timezone_offset: -330
+    locale: "en-US"
+    url: "http://localhost:8501/"
+    is_embedded: false
+    color_scheme: "dark"
+  }
+}
+
+2025-07-14 18:20:30.997 Beginning script thread
+2025-07-14 18:20:30.997 Running script RerunData(widget_states=widgets {
+  id: "$$ID-14796fd36cf5207d8e8609e96833934a-None"
+  string_value: "Nike shoes under 2000 dollars"
+}
+, page_script_hash='81673c27788b9a8a1b0bde307c0772bf', context_info=timezone: "Asia/Calcutta"
+timezone_offset: -330
+locale: "en-US"
+url: "http://localhost:8501/"
+is_embedded: false
+color_scheme: "dark"
+)
+2025-07-14 18:20:30.998 Disconnecting files for session with ID f0d8db11-68a2-446c-bbdf-652a65d76edd
+2025-07-14 18:20:30.998 Sessions still active: dict_keys([])
+2025-07-14 18:20:30.998 Files: 0; Sessions with files: 0
+(venv) (base)PS S:\walmart>
+
+
+
