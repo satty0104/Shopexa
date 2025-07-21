@@ -5,4 +5,4 @@ langchain-huggingface
 transformers
 sentence-transformers
 chromadb
-faiss-cpu
+
