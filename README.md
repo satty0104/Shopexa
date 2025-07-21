@@ -12,3 +12,6 @@ It uses **LangChain**, **Hugging Face embeddings**, and **ChromaDB** to perform 
 
 ### Why Shopexa?
 Unlike traditional keyword searches, Shopexa understands **intent** and **context**, making product discovery faster and smarter for e-commerce and inventory systems.
+
+
+*Under Development
